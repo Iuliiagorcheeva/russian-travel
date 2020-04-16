@@ -1,0 +1,9 @@
+.places{
+  width: 76.87%;
+  margin: 92px auto;
+  border: solid 1px red;
+  display: grid;
+  grid-gap: 80px;
+  
+
+}

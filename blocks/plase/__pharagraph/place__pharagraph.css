@@ -1,0 +1,13 @@
+.place__pharagraph{
+width: 484px;
+min-height: 120px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+margin: 0 0 24px 0;
+}
+.place__pharagraph:last-child{
+  margin: 0;
+}
