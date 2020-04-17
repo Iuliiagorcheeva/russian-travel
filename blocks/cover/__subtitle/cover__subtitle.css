@@ -1,5 +1,5 @@
 .cover__subtitle{
-width: 30.4%;
+width: 360px;
 min-height: 66px;
 font-style: normal;
 font-weight: normal;
@@ -15,4 +15,15 @@ transform: translate(-50%, 0);
 
 
 
+}
+@media screen and (max-width: 767px){
+  .cover__subtitle{
+  font-size: 14px;
+line-height: 16px;
+width: 288px;
+position: absolute;
+bottom: 30%;
+left: 50%;
+transform: translate(-50%, 60%);
+  }
 }

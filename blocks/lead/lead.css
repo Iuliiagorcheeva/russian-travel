@@ -3,22 +3,21 @@
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 .lead{
-  width: 76%;
+  max-width: 984px;
   margin: 56px auto;
-  border: 1px solid red;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .lead{
     width: 90.62%;
 }
 }
-@media screen and (max-width: 1279x){
-  .lead{
-    margin: 48px auto;
-}
-}
 @media screen and (max-width: 1023px){
   .lead{
     width: 100%;
+}
+}
+@media screen and (max-width: 1279x){
+  .lead{
+    margin: 48px auto;
 }
 }

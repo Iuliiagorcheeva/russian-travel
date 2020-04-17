@@ -3,9 +3,14 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer{
-  border: 1px solid red;
   width: 92.5%;
   margin: 92px auto 0;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+  .footer{
+  flex-direction: column;
+  justify-content: flex-start;
+  }
 }

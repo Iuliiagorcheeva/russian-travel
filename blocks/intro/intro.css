@@ -4,19 +4,17 @@
 @import url(./__list/intro__list.css);
 
 .intro{
-  width: 76%;
+  max-width: 984px;
   margin: 92px auto;
-  border: 1px solid red;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .intro{
-    width: 90.62%;
+  width: 90.62%;
 }
 }
 @media screen and (max-width: 1023px){
   .intro{
-    width: 95%;
-    margin-top: 64px;
-  
+  width: 95%;
+  margin-top: 64px;
 }
 }

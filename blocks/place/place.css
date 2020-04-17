@@ -6,10 +6,15 @@
 @import url(./__pharagraphs/place__pharagraphs.css);
 @import url(./__pharagraph/place__pharagraph.css);
 .place{
-  min-width: 100%;
+  width: 100%;
+  min-height: 580px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid red;
+}
+@media screen and (max-width: 767px){
+  .place{
+    flex-direction: column;
+}
 }

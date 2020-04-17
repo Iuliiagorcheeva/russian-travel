@@ -1,0 +1,9 @@
+.place__website{
+  width: 45%;
+  align-self: flex-end;
+}
+@media screen and (max-width: 767px){
+  .place__website{
+  display: none;
+}
+}
