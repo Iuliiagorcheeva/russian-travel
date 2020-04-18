@@ -1,8 +1,19 @@
 .cover__background{
-  object-fit: cover;
+  margin: 0;
   width: 100%;
-  min-height: 740px;
-}
+  padding-bottom: 12%;
+  padding-top: 13%;
+  background-color: rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  }
+  .cover__background:hover{
+  background-color: #2A2C2F;
+  opacity: 0.8;
+  transition: .4s ease .2s;
+  
+  }
+
 
 
 

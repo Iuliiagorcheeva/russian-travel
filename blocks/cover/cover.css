@@ -4,24 +4,13 @@
 @import url(./__background/cover__background.css);
 .cover{
   max-width: 1184px;
-  height: 740px;
   margin: 0 auto;
   position: relative;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
-  
-  border: 1px solid red;
 }
-  @media screen and (min-width: 1024px) and (max-width: 1279px){
-    .cover{
-      height: 640px;
-  }
-}
-  @media screen and (min-width: 768px) and (max-width: 1023px){
-    .cover{
-      height: 480px;
-  }}
+
   
   
  

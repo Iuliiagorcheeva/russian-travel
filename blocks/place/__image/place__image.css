@@ -1,6 +1,6 @@
 .place__image{
   width: 50%;
-  height: 50%;
+  height: auto;
   margin: 48px 5% 0 0;
   object-fit: cover;
 
