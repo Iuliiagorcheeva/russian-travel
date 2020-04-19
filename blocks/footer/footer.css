@@ -3,8 +3,9 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer{
-  width: 92.5%;
+  max-width: 1184px;
   margin: 92px auto 0;
+  padding: 0 3%;
   display: flex;
   justify-content: space-between;
 }
@@ -12,5 +13,6 @@
   .footer{
   flex-direction: column;
   justify-content: flex-start;
+  margin: 54px auto 0;
   }
 }

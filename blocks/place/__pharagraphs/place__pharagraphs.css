@@ -1,6 +1,6 @@
 .place__pharagraphs{
-  width: 45%;
-  margin: 48px 0;
+  width: 52%;
+  margin: 48px 0 0;
 }
 @media screen and (max-width: 767px){
   .place__pharagraphs{
