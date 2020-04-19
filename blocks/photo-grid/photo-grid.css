@@ -6,8 +6,8 @@
   padding: 0 3vh 0 3vh;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
   grid-gap: 16px;
   grid-auto-rows: minmax(213px, 1fr);
 }
