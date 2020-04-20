@@ -3,11 +3,16 @@
   max-width: 1200px;
   min-height: 613px;
   margin: auto;
-  padding: 0 3vh 0 3vh;
+  padding: 0 3vh 0;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
   grid-gap: 16px;
   grid-auto-rows: minmax(213px, 1fr);
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+  .photo-grid{
+    padding: 0 6vh 0;
+  }
 }

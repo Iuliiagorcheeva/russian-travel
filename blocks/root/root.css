@@ -1,13 +1,13 @@
 .root{
   margin: auto;
   min-width: 320px;
+  max-width: 1280px;
   padding-top: 28px;
   padding-bottom: 24px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-   -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   background-color: #2A2C2F;;
-}
 }
 @media screen and (max-width: 767px){
   .root{

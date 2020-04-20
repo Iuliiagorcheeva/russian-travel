@@ -10,15 +10,15 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .lead{
     width: 90.62%;
-}
+  }
 }
 @media screen and (max-width: 1023px){
   .lead{
     width: 100%;
-}
+  }
 }
 @media screen and (max-width: 1279x){
   .lead{
     margin: 48px auto;
-}
+  }
 }
