@@ -4,6 +4,7 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 .header{
   width: 93%;
+  max-width: 1184px;
   min-height: 42px;
   margin: auto;
   display: grid;
